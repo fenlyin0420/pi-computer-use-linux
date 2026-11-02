@@ -1,7 +1,7 @@
 /**
- * pi-computer-use
+ * pi-computer-use-linux
  *
- * Computer-use for Pi on a dedicated Xvfb virtual desktop (default display :99).
+ * Linux-only computer-use for Pi on a dedicated Xvfb virtual desktop (default display :99).
  *
  * The virtual desktop is isolated: Xvfb + openbox + (optionally) a browser live
  * on their own X display, so nothing here steals the mouse, keyboard or window

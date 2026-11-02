@@ -1,12 +1,12 @@
-# pi-computer-use
+# pi-computer-use-linux
 
-> **English** — A Pi extension that gives the agent computer-use on a dedicated
+> **English** — Linux only. A Pi extension that gives the agent computer-use on a dedicated
 > Xvfb virtual desktop (default `:99`): screenshots, mouse, keyboard, window
 > and app control — fully isolated from your real desktop.
 >
 > Chinese documentation below.
 
-给 Pi 增加 computer-use 能力：在一个**独立的 Xvfb 虚拟桌面**（默认 `:99`）上截图、点鼠标、
+仅支持 Linux（X11）。给 Pi 增加 computer-use 能力：在一个**独立的 Xvfb 虚拟桌面**（默认 `:99`）上截图、点鼠标、
 打字、按热键、管理窗口、启动应用 —— 完全不与真实桌面抢占鼠标、键盘、窗口焦点。
 
 ## 原理
@@ -47,11 +47,11 @@ Linux + X11：
 
 ```bash
 # git 源（在 pi 里持久化，可用 pi update --extensions 更新）
-pi install git:github.com/fenlyin0420/pi-computer-use
+pi install git:github.com/fenlyin0420/pi-computer-use-linux
 
 # 或本地目录
-cd pi-computer-use && npm install
-pi install /path/to/pi-computer-use
+cd pi-computer-use-linux && npm install
+pi install /path/to/pi-computer-use-linux
 ```
 
 ## 工具

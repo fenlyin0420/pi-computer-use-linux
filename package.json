@@ -1,9 +1,9 @@
 {
-  "name": "pi-computer-use",
+  "name": "pi-computer-use-linux",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Pi extension: computer-use on a dedicated Xvfb virtual desktop — screenshot, mouse, keyboard, window and app control, never touching your real desktop",
+  "description": "Linux-only Pi extension: computer-use on a dedicated Xvfb virtual desktop — screenshot, mouse, keyboard, window and app control, never touching your real desktop",
   "license": "MIT",
   "pi": {
     "extensions": [

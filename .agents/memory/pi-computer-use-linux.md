@@ -1,14 +1,14 @@
 ---
-name: pi-computer-use
-description: Pi 的 computer-use 扩展：Xvfb 独立虚拟桌面（openbox + 浏览器），9 个 computer_* 工具；状态按 display 隔离、只管理自己启动的进程、外部命令一律异步并挂 error 监听
+name: pi-computer-use-linux
+description: Pi 的 computer-use 扩展（仅 Linux/X11）：Xvfb 独立虚拟桌面（openbox + 浏览器），9 个 computer_* 工具；状态按 display 隔离、只管理自己启动的进程、外部命令一律异步并挂 error 监听
 metadata:
   type: project-fact
 ---
 
-# pi-computer-use
+# pi-computer-use-linux
 
-位置：`~/.pi/agent/git/github.com/fenlyin0420/pi-computer-use`（pi 包源
-`git:github.com/fenlyin0420/pi-computer-use`；仓库 public，改完要 commit + push，
+位置：`~/.pi/agent/git/github.com/fenlyin0420/pi-computer-use-linux`（pi 包源
+`git:github.com/fenlyin0420/pi-computer-use-linux`；仓库 public，改完要 commit + push，
 否则 `pi update --extensions` 会用远端覆盖本地改动）。
 
 - 架构：`Xvfb`（默认 `:99`，`PI_COMPUTER_USE_SCREEN` 默认 `1920x1080x24`）+ `openbox` +

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# pi-computer-use: supervisor for the dedicated Xvfb virtual desktop.
+# pi-computer-use-linux: supervisor for the dedicated Xvfb virtual desktop.
 #
 #   desktop.sh start    start Xvfb + openbox + browser (if not running)
 #   desktop.sh stop     stop what this script started
