@@ -46,8 +46,8 @@ Linux + X11：
 ## 安装
 
 ```bash
-# git 源（在 pi 里持久化，可用 pi update --extensions 更新）
-pi install git:github.com/fenlyin0420/pi-computer-use-linux
+# npm 源（在 pi 里持久化，可用 pi update --extensions 更新）
+pi install npm:@fenlyin/pi-computer-use-linux
 
 # 或本地目录
 cd pi-computer-use-linux && npm install
